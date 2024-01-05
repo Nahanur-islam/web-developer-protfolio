@@ -1,6 +1,7 @@
 /*common shared font*/
 body{
     font-family: 'Open Sans', sans-serif;
+ 
 }
 .text-primany{
     color: #FD6E0A;
@@ -18,6 +19,7 @@ nav{
 color: var(--Dark-01, #181818);
 font-size: 45px;
 font-weight: 800;
+
 }
 nav > ul{
     display: flex;
@@ -43,17 +45,77 @@ nav a{
   font-style: normal;
   font-weight: 700;
   padding: 5px 5px;
+ 
 }
 /*header related styles*/
 .header-class{
     background-color: color #f8cfb2; 
     background-color: #f9f1eb;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:bottom right;
+  
 }
-.banner{
-    padding:30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.ratul{
+    padding:30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+
 }
 .banner .profile-picture{
 
+}
+.banner-greeting{
+    font-size: 45px;
+    color: var(--Dark-02, #474747);
+    margin-bottom: 0;
+}
+.banner-tittle{
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-depriction{
+    line-height: 30px;
+
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*main section style*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*abot section style*/
+.about{
+    padding: 90px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
+}
+.section-title{
+color: black;
+text-align: center;
+font-size: 35px;;
+font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
