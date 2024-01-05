@@ -93,6 +93,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top:130px;
+}
 /*abot section style*/
 .about{
     padding: 90px;
@@ -118,4 +121,59 @@ font-weight: 700;
 }
 .about-info{
     text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+/* skil related styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill-discription{
+    color: #757575;
+}
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #facfcf;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/*resume section styles*/
+.resume-column-title{ color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-continer{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom:10px ;
+}
+.resume-item-institute{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0pxs;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.raul{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    background-color: #fff8f3;
+    margin-top: 100px;
+    padding: 130px 200px;
 }
