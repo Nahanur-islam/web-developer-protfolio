@@ -1,92 +1,54 @@
-/*common shared font*/
 body{
-    font-family: 'Open Sans', sans-serif;
- 
+    font-family: 'lato',sans-serif;
+    font-family: 'open sans', sans-serif;
 }
-.text-primany{
-    color: #FD6E0A;
-font-size: 45px;
-font-weight: 800;
-}
-/*nav related styles*/
 nav{
     display: flex;
-    /*justify-content space-between*/
     justify-content: space-between;
     align-items: center;
 }
-.nav-tittle{
-color: var(--Dark-01, #181818);
-font-size: 45px;
-font-weight: 800;
-
+.nav-title{
+    color: #181818;
+    font-size: 450px;
+    font-weight: 800;
+}
+.btn-primary{
+    border-radius: 5px;
+    background:#fd6e0a ;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 5px 5px;
+}
+.text-primary{
+    color: #fd6e0a;
 }
 nav > ul{
     display: flex;
     align-items: center;
-    margin: 0 200px;
-    
+   margin: 0 200px;
 }
 nav li{
-        list-style: none;
-        margin-right: 50px;
+    list-style: none;
+    margin-right:50px;
 }
 nav a{
-    text-decoration:none;
-    color: rgb(111, 93, 93);
-    
-}
-.btn-primary{
-  border-radius: 5px;
-  background: orange;
-  border: 0;
-  color: white;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  padding: 5px 5px;
- 
-}
-/*header related styles*/
-.header-class{
-    background-color: color #f8cfb2; 
-    background-color: #f9f1eb;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position:bottom right, top left;
-  
-}
-.ratul{
-    padding:30px 30px 0px 150px;
-  display: flex;
-  align-items: center;
+    text-decoration: none;
+    color: #474747;
 
 }
-.banner .profile-picture{
-
-}
-.banner-greeting{
-    font-size: 45px;
-    color: var(--Dark-02, #474747);
-    margin-bottom: 0;
-}
-.banner-tittle{
-    font-style: normal;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-.banner-depriction{
-    line-height: 30px;
-
-}
-.banner-content{
-    max-width: 500px;
+.header{
+    background-color: #fff8f3;
 }
 .banner{
+    padding:30px 30px 30px 150px;
     display: flex;
+
+}
+.banner .profile-pic{
+    width: 400px;
     align-items: center;
-    justify-content: space-between;
 }
 /*main section style*/
 main{
