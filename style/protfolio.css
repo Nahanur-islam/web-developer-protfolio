@@ -40,15 +40,35 @@ nav a{
 }
 .header{
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: ;
 }
 .banner{
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 0px 150px;
     display: flex;
+   justify-content: space-between;
 
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-pic{
     width: 400px;
+    height: 400px;
     align-items: center;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 /*main section style*/
 main{
